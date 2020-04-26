@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import Locize from 'i18next-locize-backend';
-
-console.log(Locize);
 
 export default function Home() {
   return (
