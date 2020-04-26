@@ -1,4 +1,7 @@
 import Head from 'next/head'
+import Locize from 'i18next-locize-backend';
+
+console.log(Locize);
 
 export default function Home() {
   return (
@@ -201,4 +204,8 @@ export default function Home() {
       `}</style>
     </div>
   )
+}
+
+Home.getInitialProps = async() => {
+  return {};
 }
